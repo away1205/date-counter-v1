@@ -1,0 +1,30 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  gap: 3rem;
+  justify-content: center;
+  text-align: center;
+  margin: 1rem;
+}
+
+.btn {
+  background-color: aliceblue;
+  color: black;
+}
+
+p:last-child {
+  margin-top: 3rem;
+}
